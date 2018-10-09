@@ -11,7 +11,7 @@
     "category": "Management System",
     'images': ['images/mgmtsystem.png', 'images/mgmtsystem-hover.png'],
     "depends": [
-        'base',
+        'base', 'mail'
     ],
     "data": [
         'security/mgmtsystem_security.xml',

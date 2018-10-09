@@ -26,7 +26,9 @@ msgid ""
 "    Actions (immediate, corrective, preventive) and improvement "
 "opportunities\n"
 "        "
-msgstr ""
+msgstr "\n"
+"    Acciones (immediata, correctiva, preventiva) y oportunidades de mejore\n"
+"        "
 
 #. module: mgmtsystem
 #: model:ir.ui.view,arch_db:mgmtsystem.view_mgmtsystem_configuration
@@ -252,6 +254,11 @@ msgid "Nonconformities"
 msgstr "No conformidades"
 
 #. module: mgmtsystem
+#: model:ir.ui.view,arch_db:mgmtsystem.system_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: mgmtsystem
 #: model:ir.model.fields,field_description:mgmtsystem.field_mgmtsystem_config_settings_module_mgmtsystem_procedure
 msgid "Procedures"
 msgstr "Procedimientos"
@@ -400,7 +407,7 @@ msgstr "Informes"
 #. module: mgmtsystem
 #: model:ir.ui.menu,name:mgmtsystem.menu_mgmtsystem_settings
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Configuración"
 
 #. module: mgmtsystem
 #: code:addons/mgmtsystem/models/mgmtsystem_system.py:15
@@ -428,7 +435,7 @@ msgstr "Usuario"
 #. module: mgmtsystem
 #: model:res.groups,name:mgmtsystem.group_mgmtsystem_viewer
 msgid "Viewer"
-msgstr "Espectador"
+msgstr "Visualizador"
 
 #. module: mgmtsystem
 #: model:ir.model,name:mgmtsystem.model_mgmtsystem_config_settings
