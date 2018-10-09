@@ -28,7 +28,7 @@ msgstr ""
 #: model:ir.model,name:mgmtsystem_manual.model_mgmtsystem_system
 #: model:ir.model.fields,field_description:mgmtsystem_manual.field_mgmtsystem_system_manual
 msgid "Manual"
-msgstr "Manuela"
+msgstr "Manual"
 
 #. module: mgmtsystem_manual
 #: model:ir.actions.act_window,name:mgmtsystem_manual.action_manuals
