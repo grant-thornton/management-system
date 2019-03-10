@@ -21,15 +21,13 @@ msgstr ""
 
 #. module: mgmtsystem_action
 #: model:mail.template,body_html:mgmtsystem_action.action_email_template_reminder_action
-msgid ""
-"\n"
+msgid "\n"
 "                \n"
 "    <p>Hello,</p>\n"
 "\n"
 "    <p>\n"
 "      This is an automated message to remind you that the\n"
-"      following action is due to be completed in 10 days (${object."
-"date_deadline}):\n"
+"      following action is due to be completed in 10 days (${object.date_deadline}):\n"
 "\n"
 "      <a href=\"${object.get_action_url()}\">${object.get_action_url()}</a>\n"
 "    </p>\n"
@@ -41,16 +39,31 @@ msgid ""
 "    </p>\n"
 "            \n"
 "            "
-msgstr ""
+msgstr "\n"
+"                \n"
+"    <p>Hello,</p>\n"
+"\n"
+"    <p>\n"
+"      This is an automated message to remind you that the\n"
+"      following action is due to be completed in 10 days (${object.date_deadline}):\n"
+"\n"
+"      <a href=\"${object.get_action_url()}\">${object.get_action_url()}</a>\n"
+"    </p>\n"
+"\n"
+"    <p>\n"
+"      Thank you and have a nice day.<br />\n"
+"      --<br />\n"
+"      Odoo\n"
+"    </p>\n"
+"            \n"
+"            "
 
 #. module: mgmtsystem_action
 #: model:mail.template,body_html:mgmtsystem_action.email_template_new_action_reminder
-msgid ""
-"\n"
+msgid "\n"
 "                \n"
 "<p>Hello,</p>\n"
-"<p>A new action has been assigned to you : <a href=\"${object."
-"get_action_url()}\">${object.get_action_url()}</a></p>\n"
+"<p>A new action has been assigned to you : <a href=\"${object.get_action_url()}\">${object.get_action_url()}</a></p>\n"
 "<p>${object.description}</p>\n"
 "\n"
 "<p>\n"
@@ -59,7 +72,18 @@ msgid ""
 "  Odoo\n"
 "</p>\n"
 "            "
-msgstr ""
+msgstr "\n"
+"                \n"
+"<p>Hello,</p>\n"
+"<p>A new action has been assigned to you : <a href=\"${object.get_action_url()}\">${object.get_action_url()}</a></p>\n"
+"<p>${object.description}</p>\n"
+"\n"
+"<p>\n"
+"  Thank you<br />\n"
+"  --<br />\n"
+"  Odoo\n"
+"</p>\n"
+"            "
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_number_of_actions
@@ -70,18 +94,18 @@ msgstr "Nº de acciones"
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_number_of_days_to_close
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_number_of_days_to_close
 msgid "# of days to close"
-msgstr ""
+msgstr "Nº de dias para cerrar"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_number_of_days_to_open
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_number_of_days_to_open
 msgid "# of days to open"
-msgstr ""
+msgstr "Nº de dias para cerrar"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_number_of_exceedings_days
 msgid "# of exceedings days"
-msgstr ""
+msgstr "Nº de días excententes"
 
 #. module: mgmtsystem_action
 #: model:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
@@ -120,7 +144,7 @@ msgstr "Acción"
 #: code:addons/mgmtsystem_action/models/mgmtsystem_action.py:147
 #, python-format
 msgid "Action back to draft stage on "
-msgstr ""
+msgstr "Acción de regreso a la etapa de borrador en "
 
 #. module: mgmtsystem_action
 #: code:addons/mgmtsystem_action/models/mgmtsystem_action.py:173
@@ -163,7 +187,7 @@ msgstr "Activo"
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_age
 msgid "Age"
-msgstr ""
+msgstr "Edad"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_cancel_date
@@ -178,7 +202,7 @@ msgstr "Cancelado"
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_date_closed
 msgid "Close Date"
-msgstr "Fecha de cierre"
+msgstr "Fecha cierre"
 
 #. module: mgmtsystem_action
 #: model:mgmtsystem.action.stage,name:mgmtsystem_action.stage_close
@@ -188,7 +212,7 @@ msgstr "Cerrado"
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_date_closed
 msgid "Closed Date"
-msgstr ""
+msgstr "Fecha de cierre"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_case_default
@@ -210,7 +234,7 @@ msgstr "Acción correctiva"
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_create_date
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_create_date
 msgid "Create Date"
-msgstr "Fecha de creació"
+msgstr "Fecha de creación"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_create_uid
@@ -231,6 +255,7 @@ msgstr "Fecha límite"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_description
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_name
 #: model:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_form
 msgid "Description"
 msgstr "Descripción"
@@ -240,7 +265,7 @@ msgstr "Descripción"
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_display_name
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_display_name
 msgid "Display Name"
-msgstr "Nombre mostrado"
+msgstr "Nombre a mostrar"
 
 #. module: mgmtsystem_action
 #: model:mgmtsystem.action.stage,name:mgmtsystem_action.stage_draft
@@ -255,28 +280,29 @@ msgstr "Editar"
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_is_ending
 msgid "Ending stage"
-msgstr ""
+msgstr "Etapa de fin"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_date_deadline
+msgid "Expected date"
+msgstr "Fecha prevista"
 
 #. module: mgmtsystem_action
 #: model:ir.actions.act_window,help:mgmtsystem_action.action_report_mgmtsystem_action
-msgid ""
-"Have a general overview of all actions processed in the system by sorting "
-"them with specific criteria."
-msgstr ""
+msgid "Have a general overview of all actions processed in the system by sorting them with specific criteria."
+msgstr "Tenga una visión general de todas las acciones procesadas en el sistema clasificándolas con criterios específicos."
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_id
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_id
-#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_id_2315
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_id_15891
 msgid "ID"
 msgstr "ID"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action_stage_case_default
-msgid ""
-"If you check this field,         this stage will be proposed by default on "
-"each sales team.         It will not assign this stage to existing teams."
-msgstr ""
+msgid "If you check this field,         this stage will be proposed by default on each sales team.         It will not assign this stage to existing teams."
+msgstr "Si marca este campo, esta etapa se propondrá de forma predeterminada en cada equipo de ventas. No asignará esta etapa a los equipos existentes."
 
 #. module: mgmtsystem_action
 #: selection:mgmtsystem.action,type_action:0
@@ -300,35 +326,35 @@ msgstr "En progreso"
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report___last_update
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage___last_update
 msgid "Last Modified on"
-msgstr "Última modificación el"
+msgstr "Última modificación en"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_write_uid
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_write_uid
 msgid "Last Updated by"
-msgstr "Ultima actualización por"
+msgstr "Última actualización por"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_write_date
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_write_date
 msgid "Last Updated on"
-msgstr "Ultima actualización el"
+msgstr "Última actualización el"
 
 #. module: mgmtsystem_action
 #: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action_report
 msgid "Management System Action Report"
-msgstr ""
+msgstr "Informe de Acción del Sistema de Gestión"
 
 #. module: mgmtsystem_action
 #: model:ir.actions.act_window,name:mgmtsystem_action.action_report_mgmtsystem_action
 msgid "Management System Analysis"
-msgstr ""
+msgstr "Análisis del sistema de gestión"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_opening_date
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_opening_date
 msgid "Opening Date"
-msgstr ""
+msgstr "Fecha de apertura"
 
 #. module: mgmtsystem_action
 #: selection:mgmtsystem.action,type_action:0
@@ -383,12 +409,7 @@ msgstr "Etapas"
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage_is_starting
 msgid "Starting stage"
-msgstr ""
-
-#. module: mgmtsystem_action
-#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_name
-msgid "Subject"
-msgstr "Asunto"
+msgstr "Etapa de inicio"
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_system_id
@@ -409,7 +430,7 @@ msgstr "Mensajes no leídos"
 #. module: mgmtsystem_action
 #: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action_stage_sequence
 msgid "Used to order stages. Lower is better."
-msgstr ""
+msgstr "Utilizado para ordenar etapas. Bajo es más prioritario."
 
 #. module: mgmtsystem_action
 #: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report_user_id
@@ -421,15 +442,16 @@ msgstr "Usuario"
 #: code:addons/mgmtsystem_action/models/mgmtsystem_action.py:143
 #, python-format
 msgid "We cannot bring back the action to draft stage"
-msgstr ""
+msgstr "No es posible traer de vuelta la acción a la etapa borrador."
 
 #. module: mgmtsystem_action
 #: code:addons/mgmtsystem_action/models/mgmtsystem_action.py:161
 #, python-format
 msgid "You should first open the action"
-msgstr ""
+msgstr "Primero se debe abrir la acción."
 
 #. module: mgmtsystem_action
 #: model:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
 msgid "oe_kanban_text_red"
 msgstr "oe_kanban_text_red"
+
