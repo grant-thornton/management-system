@@ -22,12 +22,12 @@ msgstr ""
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_number_of_days_to_close
 msgid "# of days to close"
-msgstr ""
+msgstr "Nº de dias para cerrar"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_number_of_nonconformities
 msgid "# of nonconformities"
-msgstr ""
+msgstr "Nº de no conformidades"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_kanban_state
@@ -37,7 +37,10 @@ msgid ""
 " * Blocked indicates something is preventing the progress of this task\n"
 " * Ready for next stage indicates the task is ready to be pulled to the next "
 "stage"
-msgstr ""
+msgstr "Un estado kanban indica situaciones especiales que lo afectan::\n"
+" * Normal es la situación por defecto.\n"
+" * Bloqueado indica que algo está impidiendo el progreso de esta tarea.\n"
+" * Listo para la siguiente etapa indica que la tarea está lista para pasar a la siguiente "
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_action
@@ -65,7 +68,7 @@ msgstr "Comentarios plan de acción"
 msgid ""
 "Action plan  comments are required in order to put a nonconformity In "
 "Progress."
-msgstr ""
+msgstr "Se requieren comentarios del plan de acción para poner una no conformidad en curso"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_action_ids
@@ -87,7 +90,7 @@ msgstr "Añadir una descripción ..."
 #: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity.py:188
 #, python-format
 msgid "All actions must be done before closing a Nonconformity."
-msgstr ""
+msgstr "Todas las acciones deben realizarse antes de cerrar una no conformidad."
 
 #. module: mgmtsystem_nonconformity
 #: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity_stage.py:10
@@ -130,7 +133,7 @@ msgstr "Necesidad mal definida"
 #. module: mgmtsystem_nonconformity
 #: selection:mgmtsystem.nonconformity,kanban_state:0
 msgid "Blocked"
-msgstr ""
+msgstr "Bloqueada"
 
 #. module: mgmtsystem_nonconformity
 #: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity_stage.py:14
@@ -197,7 +200,7 @@ msgstr "No conformidades cerradas"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_closing_date
 msgid "Closing Date"
-msgstr ""
+msgstr "Fecha de cierre"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_action_comments
@@ -235,7 +238,7 @@ msgstr "Creado en"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_days_since_updated
 msgid "Days since updated"
-msgstr ""
+msgstr "Días desde la actualización"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause_sequence
@@ -306,7 +309,7 @@ msgstr "Comentarios de evaluación"
 #: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity.py:181
 #, python-format
 msgid "Evaluation Comments are required in order to close a Nonconformity."
-msgstr ""
+msgstr "Los comentarios de evaluación son necesarios para cerrar una no conformidad."
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.origin,name:mgmtsystem_nonconformity.nc_origin_extenal_audit
@@ -326,7 +329,7 @@ msgstr "Rellenado por"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage_fold
 msgid "Folded in Kanban"
-msgstr ""
+msgstr "Plegado en Kanban"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_cause_parent_id
@@ -344,7 +347,7 @@ msgstr "Agrupar por..."
 msgid ""
 "Have a general overview of all non conformities processed in the system by "
 "sorting them with specific criteria."
-msgstr ""
+msgstr "Tenga una visión general de todas las no conformidades procesadas en el sistema clasificándolas con criterios específicos."
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.hr_unavailable_inadequate
@@ -399,17 +402,17 @@ msgstr "Queja internal del cliente"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage_is_starting
 msgid "Is starting Stage"
-msgstr ""
+msgstr "Esta iniciando la etapa"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_kanban_state
 msgid "Kanban State"
-msgstr ""
+msgstr "Estado Kanban"
 
 #. module: mgmtsystem_nonconformity
 #: model:mgmtsystem.nonconformity.cause,name:mgmtsystem_nonconformity.demo_cause
 msgid "Lack of expertise"
-msgstr ""
+msgstr "Falta de experiencia"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity___last_update
@@ -446,7 +449,7 @@ msgstr "Mayor"
 #. module: mgmtsystem_nonconformity
 #: model:ir.actions.act_window,name:mgmtsystem_nonconformity.action_report_mgmtsystem_nonconformity
 msgid "Management System Analysis"
-msgstr ""
+msgstr "Análisis del sistema de gestión"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_manager_user_id
@@ -468,7 +471,7 @@ msgstr "Nombre"
 #: model:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_report_mgmtsystem_nonconformity_graph
 #: model:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_report_mgmtsystem_nonconformity_pivot
 msgid "Non conformity"
-msgstr ""
+msgstr "No conformidad"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_tree
@@ -502,17 +505,17 @@ msgstr "No conformidad"
 #. module: mgmtsystem_nonconformity
 #: model:ir.ui.view,arch_db:mgmtsystem_nonconformity.mgmtsystem_nonconformity_stage_form_view
 msgid "Nonconformity Stage"
-msgstr ""
+msgstr "Etapa de no conformidad"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model,name:mgmtsystem_nonconformity.model_mgmtsystem_nonconformity_stage
 msgid "Nonconformity Stages"
-msgstr ""
+msgstr "Etapas de no conformidad"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_action_nonconformity_immediate_id
 msgid "Nonconformity immediate id"
-msgstr "No conformidad id inmediata"
+msgstr "Acción inmediata"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
@@ -606,7 +609,7 @@ msgstr "Comité de Calidad"
 #. module: mgmtsystem_nonconformity
 #: selection:mgmtsystem.nonconformity,kanban_state:0
 msgid "Ready for next stage"
-msgstr ""
+msgstr "Listo para la siguiente etapa"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_ref
@@ -695,7 +698,7 @@ msgstr "Falla técnica"
 msgid ""
 "This stage is folded in the kanban view when there are \n"
 "no records in that stage to display."
-msgstr ""
+msgstr "Esta etapa se pliega en la vista Kanban cuando no hay registros en esa etapa para mostrar"
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_severity_name
@@ -715,7 +718,7 @@ msgstr "Mensajes no leídos"
 #. module: mgmtsystem_nonconformity
 #: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage_sequence
 msgid "Used to order states. Lower is better."
-msgstr ""
+msgstr "Se utiliza para ordenar estados. Más bajo es mejor."
 
 #. module: mgmtsystem_nonconformity
 #: model:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
@@ -732,4 +735,4 @@ msgstr "Condiciones de trabajo"
 msgid ""
 "select stis checkbox if this is the default stage \n"
 "for new nonconformities"
-msgstr ""
+msgstr "Seleccione esta casilla de verificación si esta es la etapa predeterminada para nuevas no conformidades"
